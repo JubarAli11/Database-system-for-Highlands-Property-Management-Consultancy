@@ -1,0 +1,7 @@
+XLODBC
+1
+Driver=MySQL ODBC 5.3 Unicode Driver;SERVER=mysql.cms.gre.ac.uk;UID=ja6708t;DATABASE=mdb_ja6708t;PORT=3306
+SELECT ProductionInformation_0.HouseType, Date_0.Month, SalesDepartment_0.GrandTotal  FROM mdb_ja6708t.Date Date_0, mdb_ja6708t.ProductionInformation ProductionInformation_0, mdb_ja6708t.SalesDepartment SalesDepartment_0  WHERE Date_0.DateID = SalesDepartment_0.DateID AND ProductionInformation_0.ProductionInformationID = SalesDepartment_0.ProductionInformationID
+
+
+HouseType	Month	GrandTotal
